@@ -1,0 +1,58 @@
+body{
+    background: #2e2e2e;
+
+}
+
+  
+  .container {
+    height: auto;
+    margin: 0 auto;
+    max-width: 600px;
+    position: absolute;
+  }
+
+  .title{
+      margin-left: 40%;
+      color:white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+ 
+
+  h3{
+      color:white;
+      
+  }
+
+  #footer{
+      margin-top: 5%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }
+
+  @keyframes bounce {
+	0% {top:20px; transform: scale(.8,1); }
+	1% {scale:(.8,1);}
+	50% {transform: scale(.8,1);}
+	99% {transform: scale(.8,1) scale(.8,1);}
+	100% {top:310px; transform: scale(.8,1) scale(1.15);}
+}
+
+.bouncing {
+	border-bottom: 10px solid #333; 
+	width: 100%; 
+	height:400px;
+}
+
+.ball {
+	width:100px;
+	height:100px; 
+	border-radius:100%; 
+	position:absolute; 
+	top:30px; 
+	left:50%;
+	margin-left:-30px;
+	background: black;
+	animation: bounce 1s cubic-bezier(.89, .01, .99, 1.01) infinite  ; 
+	animation-direction: alternate;
+}
